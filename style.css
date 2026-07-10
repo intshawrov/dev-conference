@@ -47,6 +47,8 @@ nav ul li a {
     cursor: pointer;
 }
 
+/* Hero Section Style */
+
 .hero {
     padding: 140px 0;
     background:
@@ -82,6 +84,8 @@ nav ul li a {
 .hero-btn {
     justify-self: center;
 }
+
+/* Speaker Section style */
 
 .speaker-section {
     padding: 80px 0;
@@ -134,4 +138,125 @@ nav ul li a {
 .card-content p {
     font-size: 14px;
     color: #575757;
+}
+
+/* Pricing Sectopm Style */
+
+
+.pricing{
+    padding: 80px 0;
+}
+
+.pricing-title{
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.pricing-subtitle{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-item{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    margin-top: 48px;
+    width: 300px;
+}
+
+.card-item span{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #888888;
+}
+
+.card-item h3{
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.card-item p{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #888888;
+}
+
+.card-item hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.card-item ul li{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.card-item ul {
+    list-style-position: inside;
+
+}
+
+.card-item ul li::marker{
+    color: #2563EB;
+}
+
+.pricing-btn{
+    width: 100%;
+    padding: 11px ;
+    border: 1px solid #2563EB;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563EB;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.highlight-card{
+    background-color: #0D1B2A;
+}
+
+.highlight-card p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight-card h3{
+    color: #ffffff;
+}
+
+
+.highlight-card ul li{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.highlight-btn{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.highlight-card span{
+    color: #93C5FD;
 }
